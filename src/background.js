@@ -1,5 +1,6 @@
 global.browser = require('webextension-polyfill');
 
+const apiKey = '';
 let translationType;
 
 chrome.runtime.onInstalled.addListener(() => {
@@ -63,7 +64,7 @@ const getLangFromStorage = async (detectedLang) => {
 
 //detect selected text language
 const detectLanguage = async (text) => {
-	const result = await fetch('https://translation.googleapis.com/language/translate/v2/detect?key=AIzaSyDW8fTn6eUuXWVeb0PNyERZHr1CaMwan7c', {
+	const result = await fetch('https://translation.googleapis.com/language/translate/v2/detect?key='+apiKey, {
 		method: 'POST',
 		body: JSON.stringify({ q: text })
 	});
