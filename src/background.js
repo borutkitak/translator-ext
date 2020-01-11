@@ -1,6 +1,6 @@
 global.browser = require('webextension-polyfill');
 
-const apiKey = 'AIzaSyDW8fTn6eUuXWVeb0PNyERZHr1CaMwan7c';
+const apiKey = '';
 let translationType;
 
 chrome.runtime.onInstalled.addListener(() => {
