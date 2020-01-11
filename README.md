@@ -1,10 +1,10 @@
 # Translator Extension
 
-Translator is the browser extension which can translate words for you with just a double click.
+Translator is the browser extension that can translate words for you with just a double click.
 
 ## Installation
 
-Follow steps below.
+Follow the steps below.
 
 ```bash
 1. Clone repository
@@ -17,7 +17,7 @@ Follow steps below.
 
 ## Usage
 
-Follow steps below.
+Follow the steps below.
 
 ```bash
 1. Set your primary and secondary language.
