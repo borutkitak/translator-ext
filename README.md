@@ -15,6 +15,14 @@ Follow steps below.
 6. Enjoy the extension!
 ```
 
+## Usage
+
+Follow steps below.
+
+```bash
+1. Set your primary and secondary language.
+2. Double click word || mark word(s) -> right click -> Translate || mark word(s) -> press cmd (ctrl) + shift + Z
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
