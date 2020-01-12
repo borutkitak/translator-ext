@@ -84,7 +84,7 @@ async function getTranslation(text) {
 	};
 
 	//'https://script.google.com/macros/s/AKfycbyUS-cKSLyEotUr8d4i8SLiBtDR2ewAfGT65nQoKDasTU97-w/exec'
-	const result = await fetch('https://translation.googleapis.com/language/translate/v2?key=AIzaSyDW8fTn6eUuXWVeb0PNyERZHr1CaMwan7c', {
+	const result = await fetch('https://translation.googleapis.com/language/translate/v2?key='+apiKey, {
 		method: 'POST',
 		body: JSON.stringify(data)
 	});
